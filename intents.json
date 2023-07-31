@@ -1,0 +1,104 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "chapters",
+  "patterns": ["what are the chapters","chapters","list all the chapter names of physics of class 11th","unit names","excercise names"],
+  "responses": [" Physical World"," Units and Measurement"," Motion in a Straight Line","Motion in a Plane","Law of Motion"," Work, Energy and Power"," Systems of Particles and Rotational Motion"," Gravitation Class ","Mechanical Properties of Solids","Mechanical Properties of Fluids","Thermal Properties of Matter"," Thermodynamics","Kinetic Theory"," Oscillations"," Waves"]
+  },
+
+  {"tag": "Science",
+  "patterns": ["what is science", "explain science","science"],
+  "responses": ["Science is a systematic and organised attempt to acquire knowledge about the surroundings through observations, experiments and verifications."]
+  },
+
+   {"tag": "Physics",
+  "patterns": ["Physics", "what is physics"," explain physics"],
+  "responses": ["Physics is a fundamental science concerned with understanding the natural phenomena that occur in our universe.\nIt has many branches such as Mechanics, Electromagnetism, Thermodynamics, Modem Physics, etc. Between 1600 and 1900, three broad areas were developed, which is together called Classical Physics. These three areas of study are classical mechanics, thermodynamics and electromagnetism. But by 1905 it became apparent that classical ideas failed to explain several phenomena. Then some new theories were developed in what is called Modem Physics such as Special Relativity, Quantum Mechanics, etc.."]
+  },
+
+   {"tag": "Scope and Excitement of Physics",
+  "patterns": ["Scope and Excitement of Physics","what are the Scope and Excitement of Physics","explain the Scope and Excitement of Physics"],
+  "responses": ["The scope of Physics is very broad and covers a wide range of magnitude of physical quantities such as length, mass, time, energy, etc.\nIt deals with the macroscopic world like galaxies and universe as well as microscopic world like nucleus of an atom and fundamental particles like electrons, protons, neutrons etc.\nImmense excitement is involved in the study of physics since it explains every naturally occuring phenomena with a set of rules, so that clear understanding can be achieved. The challenge to carry out imaginative new experiments to unlock the secrets of nature, to verify or refute theories, is really exciting."]
+  },
+
+  {"tag": "Measurement",
+  "patterns": ["Measurement","what is measurement"],
+  "responses": ["The process of measurement is basically a comparison process. To measure a physical quantity, we have to find out how many times a standard amount of that physical quantity is present in the quantity being measured. The number thus obtained is known as the magnitude and the standard chosen is called the unit of the physical quantity."]
+  },
+
+  {"tag": "Fundamental Physical Quantity/Units",
+  "patterns": ["Fundamental Physical Quantity/Units","what are the Fundamental Physical Quantity/Units"],
+  "responses": ["It is an elementary physical quantity, which does not require any other physical quantity to express it. It means it cannot be resolved further in terms of any other physical quantity. It is also known as basic physical quantity.\nThe units of fundamental physical quantities are called fundamental units.\nFor example, in M. K. S. system, Mass, Length and Time expressed in kilogram, metre and second respectively are fundamental units."]
+  },
+
+  {"tag": "Derived Physical Quantity/Units",
+  "patterns": ["Derived Physical Quantity/Units","what are the Derived Physical Quantity/Units"],
+  "responses": ["All those physical quantities, which can be derived from the combination of two or more fundamental quantities or can be expressed in terms of basic physical quantities, are called derived physical quantities.\nThe units of all other physical quantities, which car. be obtained from fundamental units, are called derived units. For example, units of velocity, density and force are m/s, kg/m3, kg m/s2 respectively and they are examples of derived units."]
+  },
+
+  {"tag": "Systems of Units",
+  "patterns": ["different types of Systems of Units","Systems of Units","what are the Systems of Units"],
+  "responses": ["Earlier three different units systems were used in different countries. These were CGS, FPS and MKS systems. Now-a-days internationally SI system of units is followed. In SI unit system, seven quantities are taken as the base quantities. first, CGS System. Centimetre, Gram and Second are used to express length, mass and time respectively. second,  FPS System. Foot, pound and second are used to express length, mass and time respectively. third, MKS System. Length is expressed in metre, mass is expressed in kilogram and time is expressed in second. Metre, kilogram and second are used to express length, mass and time respectively. fourth, SI Units. Length, mass, time, electric current, thermodynamic temperature, Amount of substance and luminous intensity are expressed in metre, kilogram, second, ampere, kelvin, mole and candela respectively."]
+  },
+
+  {"tag": "Electric current",
+  "patterns": ["what is the unit of Electric current","unit of Electric current","Electric current unit"],
+  "responses": ["ampere."]
+  },
+
+  {"tag": "Luminous intensity",
+  "patterns": ["what is the unit of Luminous intensity","Luminous intensity unit","unit of Luminous intensity"],
+  "responses": ["candela"]
+  },
+
+  {"tag": "Amount of substance",
+  "patterns": ["what is the unit of Amount of substance","unit of Amount of substance","Amount of substance unit"],
+  "responses": ["mole."]
+  },
+
+  {"tag": "Supplementary Fundamental Units",
+  "patterns": ["what are Supplementary Fundamental Units","explain Supplementary Fundamental Units"],
+  "responses": ["There are two other supplementary fundamental units, namely Radian and steradian are two supplementary which measures plane angle and solid angle respectively."]
+  },
+
+  {"tag": "Plane angle",
+  "patterns": ["unit of plane angle","Plane angle unit"],
+  "responses": ["radian."]
+  },
+
+  {"tag": "Solid angle",
+  "patterns": ["unit of Solid angle","Solid angle unit"],
+  "responses": ["steradian"]
+  },
+
+  {"tag": "Other Important Units of Length",
+  "patterns": ["what are the Other Important Units of Length","Other Important Units of Length"],
+  "responses": ["The distances can be infinitely larger in magnitude, which cannot be depicted in terms of meters or kilometers. For instance, the distances of planets and stars etc. Therefore, it is necessary to use some larger units of length such as ‘astronomical unit’, ‘light year’, parsec’ etc. while making such calculations, some of which are : 1.Astronomical Unit – The average separation between the Earth and the sun. 1 AU = 1.496 x 1011 m. 2.Light Year – The distance travelled by light in vacuum in one year. 1 light year = 9.46 x 1015 m. 3.Parsec – The distance at which an arc of length of one astronomical unit subtends an angle of one second at a point. 1 parsec = 3.08 x 1016 m. 4.Fermi – Size of a nucleus is expressed in ‘fermi’.\n1 fermi = If = 10-15 m.  5.Angstrom – Size of a tiny atom\n1 angstrom = 1A = 10-10 m"]
+  },
+  {"tag": "What are the Significant Figures?",
+  "patterns": ["What are the Significant Figures?","Significant Figures?"],
+  "responses": ["The measurements of physical commodities are a combination of a set of reliable as well as non-reliable, that is, an uncertain number of digits. Significant bits of the number comprised the first uncertain digit and all the reliable digits. They are also termed significant figures. The number of figures that are known with some degree of reliability is termed as significant digits."]
+  },
+  {"tag": "Rules for considering Significant Figures",
+  "patterns": ["Rules for considering Significant Figures","what are the Rules for considering Significant Figures"],
+  "responses": ["Non-zero digits are always significant.\nFinal zeros to the right-hand side of the decimal are considered to be significant.\nZeros written as placeholders are not significant.\nZeros find between two significant digits are significant. For instance, 0.00065 has two significant digits.\nZeros to the left of the first non-zero digit are not significant. For example, 0.0000466 has three significant digits.\nFor non-decimal numbers, the trailing zeros are not significant. For example, 63000 has two significant digits."]
+  },
+  {"tag": "Rules for Rounding off the digits",
+  "patterns": ["Rules for Rounding off the digits","what are the Rules for Rounding off the digits"],
+  "responses": ["If the digit to be rounded off is less than 5 in the specified number, then the preceding digit is left unmodified.\n          e.g. 9.81 is rounded off to 9.8, since the digit to be dropped is less than 5, and the preceding digit is left unchanged.\n\nIf the digit to be rounded off is greater than 5 in the specified number, then the preceding digit is modified and raised by one.\n          e.g. 9.88 is rounded off to 9.9, since the digit to be dropped is more than 5, and the preceding digit is incremented by one.\n\nIf the digit to be dropped is equivalent to 5 and if followed by other non-zero digits, then the preceding digit of the specified number is raised by one.\n          e.g. the number 9.755 has to be rounded off considering the tens digits, then it is rounded off to 9.8 since it is followed by other non-           zero digits. \n\nIf the digit to be dropped is equivalent to 5 or if 5 is followed by other zero digits, then the preceding digit of the specified number remains unmodified, in case it is even.\n          e.g. the number 9.850 has to be rounded off considering the tens digits, then it is rounded off to 9.8 since it is followed by other zeros.\n\nIf the digit to be dropped is equivalent to 5 or if 5 is followed by other zero digits, then the preceding digit of the specified number is incremented by one, in case it is odd.\n          e.g. the number 9.750 has to be rounded off considering the tens digits, then it is rounded off to 9.8 since it is followed by other zeros.\n\nThe first non-significant digit is at the (n+1)th position from the leftmost place. \n\nRules to Remove Ambiguities in Determining the Number of Significant Figures\nSome of the important rules to remove Ambiguities in determining the number of Significant Figures are:\n\nChange in units should not have an impact on the number of significant digits of the number.\n          e.g. 5.900m = 590.0 cm = 5900 mm. The first two numbers are 4 significant digits, and the last one has 2 digits respectively. \n\nScientific notation can be used to report measurements of numbers.\nMultiplication or division of exact numbers can have an infinite number of significant digits."]
+  },
+
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
